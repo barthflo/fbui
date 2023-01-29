@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Florent Barth UI library for react/nextjs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "exit 0"
   },
