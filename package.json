@@ -1,0 +1,22 @@
+{
+  "name": "@barthflo/fbui",
+  "version": "1.0.0",
+  "description": "Florent Barth UI library for react/nextjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barthflo/fbui.git"
+  },
+  "author": "Florent Barth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barthflo/fbui/issues"
+  },
+  "homepage": "https://github.com/barthflo/fbui#readme",
+  "publishConfig": {
+    "@barthflo:registry": "https://npm.pkg.github.com"
+  }
+}
