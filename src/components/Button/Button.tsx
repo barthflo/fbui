@@ -54,6 +54,10 @@ export interface ButtonProps {
    * Optional click handler
    */
   onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  /**
+   * Optional class names to override
+   */
+  className?: string;
 }
 
 /**
@@ -65,6 +69,7 @@ const Button = ({
   size = "medium",
   onClick,
   label,
+  className,
 }: ButtonProps) => {
   const mode = primary
     ? "storybook-button--primary"
@@ -72,9 +77,12 @@ const Button = ({
   return (
     <ButtonStyled
       type="button"
-      className={["storybook-button", `storybook-button--${size}`, mode].join(
-        " "
-      )}
+      className={[
+        `${className}`,
+        "storybook-button",
+        `storybook-button--${size}`,
+        mode,
+      ].join(" ")}
       style={backgroundColor ? { backgroundColor } : {}}
       onClick={onClick}
     >
