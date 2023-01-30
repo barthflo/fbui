@@ -1,6 +1,6 @@
 {
   "name": "@barthflo/fbui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Florent Barth UI library for react/nextjs",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -37,6 +37,7 @@
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.27",
+    "@types/styled-components": "^5.1.26",
     "babel-loader": "^8.3.0",
     "postcss": "^8.4.21",
     "react": "^18.2.0",
@@ -50,5 +51,8 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "styled-components": "^5.3.6"
   }
 }
