@@ -78,7 +78,7 @@ const Button = ({
     <ButtonStyled
       type="button"
       className={[
-        `${className}`,
+        className,
         "storybook-button",
         `storybook-button--${size}`,
         mode,
