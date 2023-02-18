@@ -48,13 +48,13 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript2": "^0.34.1",
-    "styled-components": "^5.3.6",
+    "styled-components": "4.2.0",
     "typescript": "^4.9.4"
   },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": ">= 5"
+    "styled-components": "4.2.0"
   },
   "dependencies": {
     "responsive-props": "^2.0.1"
