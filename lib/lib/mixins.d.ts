@@ -1,0 +1,10 @@
+export type TAlignItems = "flex-start" | "center" | "flex-end" | "stretch" | "baseline";
+export type TJustifyContent = "flex-start" | "center" | "flex-end" | "stretch" | "space-between" | "space-around" | "space-evenly";
+declare const width: (width: string) => import("styled-components").FlattenSimpleInterpolation;
+declare const height: (height: string) => import("styled-components").FlattenSimpleInterpolation;
+declare const alignItems: (alignItems: TAlignItems) => import("styled-components").FlattenSimpleInterpolation;
+declare const justifyContent: (justifyContent: TJustifyContent) => import("styled-components").FlattenSimpleInterpolation;
+declare const wrap: (wrap: Boolean) => import("styled-components").FlattenSimpleInterpolation;
+declare const direction: (direction: "row" | "column") => import("styled-components").FlattenSimpleInterpolation;
+declare const grow: (grow: Boolean) => import("styled-components").FlattenSimpleInterpolation;
+export { width, height, alignItems, justifyContent, wrap, direction, grow };
